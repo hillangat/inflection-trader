@@ -1,0 +1,16 @@
+.app-container {
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    .header-container {
+        height: 70px;
+    }
+    .body-container {
+        display: flex;
+        height: calc( 98vh - 175px );
+    }
+    .footer-container {
+        height: 70px;
+    }
+}

@@ -19,3 +19,4 @@ volumes/
 # Miscellaneous
 .DS_Store
 *.log
+.angular/

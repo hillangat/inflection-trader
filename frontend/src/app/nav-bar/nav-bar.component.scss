@@ -1,0 +1,29 @@
+@import '../../variables';
+
+.ab-nav-container {
+    display: flex;
+    flex-direction: row;
+    height: $nav-height;
+    font-size: $nav-font-size;
+    .brand-container {
+        width: 20%;
+        height: 100%;
+    }
+    .links-container {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: row; 
+        div {
+            margin: $list-margin;
+            background-color: $nav-bg;
+            vertical-align: middle;
+            padding: 10px;
+            border-radius: $border-radius-md;
+            cursor: pointer;
+        }
+        div:hover {
+            background-color: $nav-bg-hover;
+        }
+    }
+}

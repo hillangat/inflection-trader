@@ -11,6 +11,7 @@
     .body-container {
         display: flex;
         height: calc( 98vh - 175px );
+        padding: $section-padding-bg;
     }
     .footer-container {
         height: 70px;

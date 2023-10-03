@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'variables';
+// body {
+//     background: $app-bg;
+//     background: -moz-linear-gradient(top left, $app-start-gradient-color, $app-end-gradient-color);
+//     background: -webkit-gradient(linear, left top, right bottom, from($app-start-gradient-color), to($app-end-gradient-color));
+//     background: -webkit-linear-gradient(top left, $app-start-gradient-color, $app-end-gradient-color);
+//     background: -o-linear-gradient(top left, $app-start-gradient-color, $app-end-gradient-color);
+//     background: -ms-linear-gradient(top left, $app-start-gradient-color, $app-end-gradient-color);
+//     background: linear-gradient(to bottom right, $app-start-gradient-color, $app-end-gradient-color);
+//     color: #E6EFFF !important;
+// }
+
 body {
-    background-color: $app-bg;
+    background-color: #DCDCDC !important;
 }

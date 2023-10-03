@@ -17,3 +17,51 @@
         height: 70px;
     }
 }
+
+/* Basic styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0e0e0; /* Light grey background */
+  color: #3A3D3D; /* Dark grey text */
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Neumorphic styling */
+.button {
+  box-shadow:  10px 10px 16px #CBCBCB, 
+             -10px -10px 16px #E9E9E9;
+}
+
+/* Pressed effect on active */
+.button:active {
+  box-shadow: inset 8px 8px 12px #b8b8b8, 
+              inset -8px -8px 12px #D0CECE;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #dcdcdc;
+}
+
+/* Compatibility */
+/* Ensure no unexpected focus outline appears in Firefox */
+.button::-moz-focus-inner {
+  border: 0;
+}
+
+/* Ensuring that tap-highlight color is transparent in mobile browsers */
+.button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Handling overflow for MS Edge and IE11 */
+.button {
+  overflow: visible;
+}

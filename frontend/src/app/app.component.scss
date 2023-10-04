@@ -21,10 +21,10 @@
 /* Basic styling */
 .button {
   display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 5px 10px;
+  font-size: 15px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #e0e0e0; /* Light grey background */
   color: #3A3D3D; /* Dark grey text */
   cursor: pointer;
@@ -35,14 +35,14 @@
 
 /* Neumorphic styling */
 .button {
-  box-shadow:  10px 10px 16px #CBCBCB, 
-             -10px -10px 16px #E9E9E9;
+  box-shadow:  5px 5px 8px #CBCBCB, 
+             -5px -5px 8px #E9E9E9;
 }
 
 /* Pressed effect on active */
 .button:active {
-  box-shadow: inset 8px 8px 12px #b8b8b8, 
-              inset -8px -8px 12px #D0CECE;
+  box-shadow: inset 4px 4px 8px #b8b8b8, 
+              inset -4px -4px 8px #D0CECE;
 }
 
 /* Hover effect */
